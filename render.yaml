@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: student-registration-1rf24cs139
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
